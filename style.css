@@ -1,0 +1,382 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+    font-family: serif;
+    --primary-color: #06052b;
+    --secondary-color:  rgb(207, 171, 78);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+span{
+    color: red;
+    color: rgb(207, 171, 78);
+}
+
+.container-fluid{
+  margin-left: 100px;
+  
+}
+
+.navbar{
+    color: white;
+    background-color: #06052B !important;
+}
+
+nav a.navbar-brand{
+    color: white;
+    font-family: serif;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: bold;
+     margin-right: 9rem;
+    
+    
+}
+
+.list-items-nav{
+    padding-left: 10px;
+    margin-left: 10rem;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+
+nav .navbar-brand:hover{
+    color: var(--secondary-color);
+}
+
+nav.navbar button.navbar-toggler span.navbar-toggler-icon{
+    color: white;
+    background-color: aliceblue;
+}
+
+nav.navbar button.navbar-toggler span.navbar-toggler-icon:hover{
+    background-color: var(--secondary-color);
+    color: aliceblue;
+}
+
+.navbar-nav li{
+    /* display: flex; */
+    float: right;
+    padding-left: 20px;
+}
+
+.navbar ul li a{
+    color: white;
+    font-family: serif;
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover{
+    color: darkgoldenrod;
+    border-bottom: 1px solid darkgoldenrod;
+}
+
+.navbar-nav .nav-link.active { 
+   
+    color: var(--secondary-color) !important;
+}
+
+#navbarNavDropdown ul{
+margin-left: 600px;
+}
+
+#navbarNavDropdown ul{
+    font-size: 20px;
+}
+
+#carouselExampleIndicators.carousel{
+    height: 200vh;
+    
+}
+
+.c-item{
+    height: 500px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.carousel-inner{
+    width: 10px;
+}
+
+
+.servicesh1{
+    text-align: center;
+    position: relative;
+}
+
+.h1services::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    left: 43%;
+    bottom: 1;
+    width: 15%;
+    height: 2px;
+    background-color: var(--secondary-color);
+}
+
+
+#servicescontainer .card{
+    margin-top: 30px;
+    height: 200px;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.servicecard{
+    text-align: center;
+    
+}
+
+.h1services{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    /* text-align: center; */
+    /* font-size: 2rem; */
+    
+}
+
+.cardbox{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardbox .card{
+    height: 15rem;
+    width: 10rem;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+#aboutus{
+    padding-top: 5rem;
+    height: auto;
+}
+
+.aboutimg{
+    text-align: center;
+}
+
+.aboutimg img{
+    height: 250px;
+    width: 250px;
+}
+
+#aboutus .aboutuspara{
+    height: auto;
+}
+
+#aboutus .aboutuspara p{
+    
+    width: 300px;
+    height: auto;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutheading{
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 0;
+    padding-bottom: 30px;
+}
+
+.aboutheading::after{
+        content: " ";
+        position: absolute;
+        display: block;
+        left: 45%;
+        bottom: 1;
+        width: 10%;
+        height: 2px;
+        background-color: var(--secondary-color);
+    }
+
+
+
+.gallerybox .galleryheading{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    
+}
+
+.gallerybox .galleryheading::after{
+        content: " ";
+        position: absolute;
+        display: block;
+        left: 47%;
+        bottom: 1;
+        width: 7%;
+        height: 2px;
+        background-color: var(--secondary-color);
+}
+
+.gallerybox{
+    background-color: #06052B;
+    padding-bottom: 20px;
+    
+}
+
+.gallerybox .img{
+    border-radius: 20%;
+}
+
+
+.cardbox1 .card1{
+    border: 1px solid black;
+}
+
+#blogbox .blogheading{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.blogcards{
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+ .card{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding: 10px;
+}
+
+
+#blogbox .blogheading::after{
+    content: " ";
+        position: absolute;
+        display: block;
+        left: 41%;
+        bottom: 1;
+        width: 18%;
+        height: 2px;
+        background-color: var(--secondary-color);
+}
+
+
+#form .form-title h1{
+    text-align: center;
+}
+
+#form .form-heading::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    left: 45%;
+    text-align: center;
+    bottom: 1;
+    width: 10%;
+    height: 2px;
+    background-color: var(--secondary-color);
+}
+
+footer{
+    background-color: #06052B;
+    color: white;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+footer form{
+    display: flex;
+}
+
+footer .getupdate::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    left: auto;
+    width: 20%;
+    height: 1px;
+    background-color: var(--secondary-color);
+}
+
+footer .call-us::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    left: auto;
+    width: 15%;
+    height: 1px;
+    background-color: var(--secondary-color);
+}
+
+
+footer .followus::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    left: auto;
+    width: 15%;
+    height: 1px;
+    background-color: var(--secondary-color);
+}
+
+
+
+footer .form-control{
+    width: 150px;
+   
+}
+
+.media-logo{
+    display: flex;
+    margin-right: 5rem;
+}
+
+
+.media-logo a{
+    color: white;
+    font-size: 30px;
+    
+}
+
+
+.contactnum a{
+    color: white;
+    font-size: 30px;
+}
+
+.fa-brands:hover{
+    color: var(--secondary-color);
+}
+
+.fa-solid:hover{
+    color: var(--secondary-color);
+}
+
+footer hr.footer{
+    color: var(--secondary-color);
+    height: 0px;
+}
+
+#navbarNavDropdown ul {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+
+/* .navbar-nav .show>.nav-link */
