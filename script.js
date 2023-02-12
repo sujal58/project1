@@ -1,4 +1,4 @@
 function subscribe() {
-    alert("You have subscribe the newsletter")
+    alert("You have subscribed the newsletter")
 }
 
